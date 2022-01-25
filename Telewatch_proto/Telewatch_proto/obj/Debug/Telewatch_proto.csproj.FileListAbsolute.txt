@@ -1,0 +1,16 @@
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\bin\Debug\Telewatch_proto.exe.config
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\bin\Debug\Telewatch_proto.exe
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\bin\Debug\Telewatch_proto.pdb
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\bin\Debug\Interop.WMPLib.dll
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\bin\Debug\AxInterop.WMPLib.dll
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\obj\Debug\Telewatch_proto.csproj.AssemblyReference.cache
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\obj\Debug\Interop.WMPLib.dll
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\obj\Debug\AxInterop.WMPLib.dll
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\obj\Debug\Telewatch_proto.csproj.ResolveComReference.cache
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\obj\Debug\Telewatch_proto.Form1.resources
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\obj\Debug\Telewatch_proto.Properties.Resources.resources
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\obj\Debug\Telewatch_proto.csproj.GenerateResource.cache
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\obj\Debug\Telewatch_proto.csproj.CoreCompileInputs.cache
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\obj\Debug\Telewatch_proto.exe
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\obj\Debug\Telewatch_proto.pdb
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\obj\Debug\Telewatch_proto.Form2.resources
