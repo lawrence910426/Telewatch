@@ -14,3 +14,6 @@ C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\obj\Debug\Telewatch_pro
 C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\obj\Debug\Telewatch_proto.exe
 C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\obj\Debug\Telewatch_proto.pdb
 C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\obj\Debug\Telewatch_proto.Form2.resources
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\bin\Debug\Newtonsoft.Json.dll
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\bin\Debug\Newtonsoft.Json.xml
+C:\home\github\Telewatch\Telewatch_proto\Telewatch_proto\obj\Debug\Telewatch_proto.csproj.CopyComplete

@@ -52,7 +52,7 @@ namespace Telewatch_proto
             // Update list
             Task<string> task = Shared.GET("Users");
             task.RunSynchronously();
-            List<string> users = JsonSerializer.Deserialize<List<string> >(task.Result);
+            // List<string> users = JsonSerializer.Deserialize<List<string> >(task.Result);
         }
     }
 }
