@@ -9,13 +9,16 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
+using Newtonsoft.Json.Linq;
 
 namespace Telewatch_proto
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        string room_id;
+        public Form1(string room_id)
         {
+            this.room_id = room_id;
             InitializeComponent();
         }
 
@@ -45,13 +48,32 @@ namespace Telewatch_proto
             // Load video
         }
 
+        int last = 0;
         private void timer1_Tick(object sender, EventArgs e)
         {
             // Play video if loaded
+            Task<string> taskState = Shared.GET("State/" + room_id);
+            taskState.RunSynchronously();
+            JObject state = JObject.Parse(taskState.Result);
+            if(state["play"].ToString() == "true")
+            {
+                // Start the player
+            }
+            if (state["stop"].ToString() == "true")
+            {
+                // Stop the player
+            }
+            if (state["set"]["last"].ToObject<int>() >= last)
+            {
+                string time = state["set"]["time"].ToString();
+                // Stop and set the player
+            }
+
 
             // Update list
-            Task<string> task = Shared.GET("Users");
-            task.RunSynchronously();
+            Task<string> taskUsers = Shared.GET("Users/" + room_id);
+            taskUsers.RunSynchronously();
+            
             // List<string> users = JsonSerializer.Deserialize<List<string> >(task.Result);
         }
     }
